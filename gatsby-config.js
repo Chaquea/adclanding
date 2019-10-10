@@ -3,6 +3,8 @@ module.exports = {
     title: `Asociacion Drupal Colombia`,
     description: `Sitio web para la Asociacion Drupal Colombia`,
     author: `@drupalcolombia`,
+    url: `https://asociaciondrupal.org`,
+    siteUrl: 'https://www.asociaciondrupal.org'
   },
 
   //https://www.gatsbyjs.org/packages/gatsby-plugin-mailchimp/
