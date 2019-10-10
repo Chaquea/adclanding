@@ -38,22 +38,22 @@ const Layout = ({ children }) => {
         <footer className="container">
           <ul className="social-icons">
             <li className="facebook">
-              <a href="https://google.com" title="Facebook" target="_blank" rel="noopener noreferrer" >
+              <a href="https://www.facebook.com/drupalcolombia" title="Facebook" target="_blank" rel="noopener noreferrer" >
                 <img src={facebook} alt="facebook" />
               </a>
             </li>
             <li className="twitter">
-              <a href="https://google.com" title="twitter" target="_blank" rel="noopener noreferrer" >
+              <a href="https://twitter.com/drupalco" title="twitter" target="_blank" rel="noopener noreferrer" >
                 <img src={twitter} alt="Twitter" />
               </a>
             </li>
             <li className="instagram">
-              <a href="https://google.com" title="Instagram" target="_blank" rel="noopener noreferrer" >
+              <a href="https://instagram.com/drupalco" title="Instagram" target="_blank" rel="noopener noreferrer" >
                 <img src={instagram} alt="Instagram" />
               </a>
             </li>
             <li className="linkedin">
-              <a href="https://google.com" title="LinkedIn" target="_blank" rel="noopener noreferrer" >
+              <a href="https://linkedin.com/company/drupalco" title="LinkedIn" target="_blank" rel="noopener noreferrer" >
                 <img src={linkedin} alt="LinkedIn" />
               </a>
             </li>
