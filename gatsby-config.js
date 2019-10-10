@@ -12,6 +12,14 @@ module.exports = {
     `gatsby-plugin-typescript`,
     `gatsby-plugin-robots-txt`,
     {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.inline\.svg$/
+        }
+      }
+    },
+    {
       resolve: 'gatsby-plugin-html-attributes',
       options: {
         lang: 'es-419'
