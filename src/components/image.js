@@ -27,7 +27,7 @@ const Image = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="logo" />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="logo" alt="Logo Asociación Drupal Colombia" />
 }
 
 export default Image

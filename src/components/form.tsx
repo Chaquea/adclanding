@@ -28,6 +28,7 @@ const EmailListForm: React.FunctionComponent<{}> = () => {
 
     return (
         <form onSubmit={handleSubmit} lang="es-419">
+            <label htmlFor="email" className="visually-hidden">Correo</label>
             <input
                 placeholder="Ingresa tu Correo"
                 name="email"
