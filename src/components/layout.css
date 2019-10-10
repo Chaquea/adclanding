@@ -688,3 +688,27 @@ footer{
   display: inline-block;
   margin: 0 15px 10px;
 }
+
+
+.form{
+  margin-top: 2.5em;
+}
+
+.form input{
+  border: 0;
+  height: 35px;
+  padding: 0 10px;
+}
+
+.form form{
+  display: flex;
+  justify-content: center;
+
+}
+
+.form button{
+  background: #F78A00;
+  color: #fff;
+  border:0;
+
+}

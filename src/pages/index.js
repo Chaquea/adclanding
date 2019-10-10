@@ -1,9 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
+import EmailListForm from "../components/form"
 import SEO from "../components/seo"
+
 
 
 /*
@@ -13,6 +15,9 @@ import SEO from "../components/seo"
  */
 
 const IndexPage = () => (
+
+
+
   <Layout>
     <SEO title="Home" />
     <section className="container">
@@ -20,6 +25,9 @@ const IndexPage = () => (
         <h1><Image /></h1>
         <p className="intro">Somos la Asociación Drupal Colombia, trabajamos en la consolidación de Drupal en el país, asi como en el soporte de la comunidad de usuarios.</p>
         <p className="mail">Ingrese su correo para mantenerse enterado de las próximas novedades y el lanzamiento del sitio web.</p>
+          <div className="form">
+            <EmailListForm />
+          </div>
         </article>
     </section>
   </Layout>

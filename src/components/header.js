@@ -1,10 +1,10 @@
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div class="container">
+    <div className="container">
       <p>Estamos trabajando en nuestro espacio para la comunidad.</p>
     </div>
   </header>

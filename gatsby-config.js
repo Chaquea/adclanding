@@ -4,7 +4,32 @@ module.exports = {
     description: `Sitio web para la Asociacion Drupal Colombia`,
     author: `@drupalcolombia`,
   },
+
+  //https://www.gatsbyjs.org/packages/gatsby-plugin-mailchimp/
   plugins: [
+    `gatsby-plugin-typescript`,
+    `gatsby-plugin-robots-txt`,
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'es-419'
+      }
+    },
+    {
+      resolve: `gatsby-plugin-mailchimp`,
+      options: {
+        endpoint: `https://asociaciondrupal.us20.list-manage.com/subscribe/post?u=d2b12d0e99ee98693c95c65e5&amp;id=1c083b12af`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        color: `blue`,
+        // Disable the loading spinner.
+        showSpinner: false,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

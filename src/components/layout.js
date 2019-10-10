@@ -38,22 +38,22 @@ const Layout = ({ children }) => {
         <footer className="container">
           <ul className="social-icons">
             <li className="facebook">
-              <a href="#" title="Facebook" target="_blank">
+              <a href="https://google.com" title="Facebook" target="_blank" rel="noopener noreferrer" >
                 <img src={facebook} alt="facebook" />
               </a>
             </li>
             <li className="twitter">
-              <a href="#" title="twitter" target="_blank">
+              <a href="https://google.com" title="twitter" target="_blank" rel="noopener noreferrer" >
                 <img src={twitter} alt="Twitter" />
               </a>
             </li>
             <li className="instagram">
-              <a href="#" title="Instagram" target="_blank">
+              <a href="https://google.com" title="Instagram" target="_blank" rel="noopener noreferrer" >
                 <img src={instagram} alt="Instagram" />
               </a>
             </li>
             <li className="linkedin">
-              <a href="#" title="LinkedIn" target="_blank">
+              <a href="https://google.com" title="LinkedIn" target="_blank" rel="noopener noreferrer" >
                 <img src={linkedin} alt="LinkedIn" />
               </a>
             </li>
